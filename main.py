@@ -1,16 +1,3 @@
-import urllib.request as req
-import ssl
-import re
-import os
-from bs4 import BeautifulSoup
-from subprocess import call # module to create subprogram instide our program
-
-context = ssl._create_unverified_context()
-
-os.system('cls')
-os.system('color e0')
-os.system('title downloader')
-
 print("1. Download The Song")
 print("2. Download The Video")
 print("3. Enter The URL And Download Video")
