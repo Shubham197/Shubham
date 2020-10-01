@@ -63,5 +63,5 @@ if 0<choice<3:
               os.system('terminate.py')
            
 else:
-    print("Wrong Input...please enter valid input.")
+    print("Wrong Input...please enter valid input!")
 
